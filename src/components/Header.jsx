@@ -37,12 +37,12 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a
-          className="block w-[12rem] xl:mr-8 flex flex-row content-center justify-center w-fit m-0 p-0"
+          className="block w-[12rem] xl:mr-4 flex flex-row content-center justify-center w-fit m-0 p-0"
           href="#hero"
         >
           <img src={brainwaveSymbol} width={50} height={50} alt="NeuroNet" />
         </a>
-        <p className="h-fit">
+        <p className="h-fit text-[25px] font-bold ">
           <a href="#hero">NeuroNet</a>
         </p>
 
